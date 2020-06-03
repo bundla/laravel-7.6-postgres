@@ -4,7 +4,7 @@ Bundle for the project [Bundla](https://github.com/tgaru/bundla).
 
 ## Specifications
 
-**Key name:** `bundla/laravel-7.6-postgres`
+**Bundle-key:** `bundla/laravel-7.6-postgres`
 
 **Bundle includes:**
 * [Laravel 7.6](https://github.com/laravel/laravel)
@@ -12,9 +12,10 @@ Bundle for the project [Bundla](https://github.com/tgaru/bundla).
 * [Nginx latest (module)](https://github.com/bundla/m-nginx-latest)
 * [PostgreSQL 12.3 (module)](https://github.com/bundla/m-postgres-12.3)
 
-#### Installation from Laravel DSK
+## Installation
+Install the Bundla console utility in accordance with the instructions on the site https://bundla.tech, create a new folder and write the command in it:
 ```
-make b=bundla/laravel-7.6-postgres
+bundla i bundla/laravel-7.6-postgres
 ````
 
 ## License
